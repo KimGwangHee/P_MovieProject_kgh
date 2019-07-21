@@ -22,6 +22,7 @@ public class eventController {
 	@RequestMapping(value="/winner.do", method=RequestMethod.GET)
 	public String winner() {
 		System.out.println("slslslsl");
+		System.out.println("slslslsl2");
 		return "event/winner";
 		
 	}
